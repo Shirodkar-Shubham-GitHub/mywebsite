@@ -3,4 +3,4 @@ services:
     name: mywebsite
     buildCommand: "./build.sh"
     env: python
-    startCommand: "gunicorn bmywebsite.wsgi:application"
+    startCommand: "gunicorn mywebsite.wsgi:application"
